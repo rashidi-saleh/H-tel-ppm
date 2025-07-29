@@ -1,0 +1,61 @@
+html
+‎<!DOCTYPE html>
+‎<html lang="fr">
+‎<head>
+‎  <meta charset="UTF-8">
+‎  <title>Hôtel PPM Beach</title>
+‎  <link rel="stylesheet" href="style.css">
+‎</head>
+‎<body>
+  
+‎  <header>
+    <h1>le lien</h1>
+  
+  <a href="https://www.PPMbeach.com/">
+  www.PPMbeach.com
+‎    <h2>Bienvenue à l'hôtel PPM Beach</h1>
+  </a>
+    <a href="./image.Html">
+   <img src=".images/hom_icon-icons.com73532.png"
+     width="32"
+‎    <nav>
+‎      <ul>
+‎        <li><a href="index.html">Accueil</a></li>
+‎        <li><a href="reservation.html">Réserver</a></li>
+‎        <li><a href="galerie.html">Galerie</a></li>
+‎        <li><a href="contact.html">Contact</a></li>
+‎      </ul>
+‎    </nav>
+‎  </header>
+‎
+‎  <section>
+‎    <h2>Réservez votre chambre dès maintenant chez PPM beach</h2>
+‎    <form>
+‎      <label for="nom">Nom:</label>
+‎      <input type="text" id="nom" name="nom" required><br>
+‎
+‎      <label for="email">Email:</label>
+‎      <input type="email" id="email" name="email" required><br>
+‎
+‎      <label for="date">Date d’arrivée:</label>
+‎      <input type="date" id="arrivee" name="arrivee"><br>
+‎
+‎      <label for="depart">Date de départ:</label>
+‎      <input type="date" id="depart" name="depart"><br>
+‎
+‎      <label for="type">Type de chambre:</label>
+‎      <select id="type" name="type">
+‎        <option>Simple</option>
+‎        <option>Double</option>
+‎        <option>VIP</option>
+‎      </select><br>
+‎
+‎      <button type="submit">Réserver</button>
+‎    </form>
+‎  </section>
+‎
+‎  <footer>
+‎    <p>&copy; 2025 Hôtel PPM Bleach - soyez le bienvenue </p>
+‎  </footer>
+‎</body>
+‎</html>
